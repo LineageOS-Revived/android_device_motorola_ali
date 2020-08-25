@@ -64,8 +64,9 @@ PRODUCT_COPY_FILES += \
 
 # Init
 PRODUCT_PACKAGES += \
-	fstab.qcom \
-	init.ali.rc
+    fstab.qcom \
+    fstab_ramdisk.qcom \
+    init.ali.rc
 
 # Sensors
 PRODUCT_COPY_FILES += \
