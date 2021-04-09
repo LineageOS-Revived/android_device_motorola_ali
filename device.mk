@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # Vendor blobs
-$(call inherit-product-if-exists, vendor/motorola/ali/ali-vendor.mk)
+$(call inherit-product, vendor/motorola/ali/ali-vendor.mk)
 
 # Device Path
 DEVICE_PATH := device/motorola/ali

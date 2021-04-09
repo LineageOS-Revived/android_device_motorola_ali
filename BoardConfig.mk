@@ -49,4 +49,4 @@ BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
 # inherit from the proprietary version
--include vendor/motorola/ali/BoardConfigVendor.mk
+include vendor/motorola/ali/BoardConfigVendor.mk
