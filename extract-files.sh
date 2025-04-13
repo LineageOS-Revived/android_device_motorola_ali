@@ -21,7 +21,7 @@ function blob_fixup() {
             sed -i "s/ro.product.manufacturer/ro.product.nopefacturer/" "${2}"
             ;;
         vendor/etc/init/motorola.hardware.audio.adspd@1.0-service.rc)
-            sed -i "s/audio media/audio media input/" "${2}"
+            grep -q "audio media input" "{2}" || sed -i "s/audio media/audio media input/" "${2}"
             ;;
     esac
 }
