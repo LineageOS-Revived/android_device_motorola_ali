@@ -82,8 +82,4 @@ $(call inherit-product, device/motorola/msm8953-common/msm8953.mk)
 
 #Soong target hals patch to caf
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH) \
-    hardware/qcom-caf/msm8996/display \
-    hardware/qcom-caf/msm8996/media \
-    hardware/qcom-caf/msm8996/audio \
-
+    $(LOCAL_PATH)
