@@ -31,9 +31,6 @@ TARGET_KERNEL_CONFIG := ali_defconfig
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
-# Recovery
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
-
 # NFC
 BOARD_NFC_CHIPSET := pn54x
 
